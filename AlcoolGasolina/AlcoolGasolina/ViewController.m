@@ -138,7 +138,7 @@
     } else {
         MFMailComposeViewController *email = [[MFMailComposeViewController alloc] init];
         email.mailComposeDelegate = self;
-        [email setSubject:@"Alcoho or Gas"];
+        [email setSubject:@"Alcohol or Gas"];
         [email setMessageBody:@"Testando os dados de email" isHTML:NO];
         [email setToRecipients:[NSArray arrayWithObjects:@"emerson.chalegre@gazin.com.br", @"emerchalegre@gmail.com", nil]];
          

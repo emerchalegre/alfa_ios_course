@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64292EC6-7414-4239-8C5E-2BBDF6F67297</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AlcoolGasolina</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6A345927BEF659763BABAEEFBC3F75E5C4791B8D</key>
+		<string>https://github.com/emerchalegre/alfa_ios_course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AlcoolGasolina/AlcoolGasolina.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6A345927BEF659763BABAEEFBC3F75E5C4791B8D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/emerchalegre/alfa_ios_course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6A345927BEF659763BABAEEFBC3F75E5C4791B8D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6A345927BEF659763BABAEEFBC3F75E5C4791B8D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>alfa_ios_course</string>
+		</dict>
+	</array>
+</dict>
+</plist>

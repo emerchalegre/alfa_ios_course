@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037914651DE0778B001C8FC0 /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037914641DE0778B001C8FC0 /* DetalhesViewController.m */; };
+		037914681DE09CEA001C8FC0 /* SiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037914671DE09CEA001C8FC0 /* SiteViewController.m */; };
+		0379146B1DE0AF6C001C8FC0 /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0379146A1DE0AF6C001C8FC0 /* MapaViewController.m */; };
+		0379146D1DE0B284001C8FC0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0379146C1DE0B284001C8FC0 /* MapKit.framework */; };
+		0379146F1DE0B28D001C8FC0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0379146E1DE0B28D001C8FC0 /* CoreLocation.framework */; };
 		038F75EB1DCDEB6100466C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F75EA1DCDEB6100466C2D /* main.m */; };
 		038F75EE1DCDEB6100466C2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F75ED1DCDEB6100466C2D /* AppDelegate.m */; };
 		038F75F11DCDEB6100466C2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F75F01DCDEB6100466C2D /* ViewController.m */; };
@@ -30,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037914631DE0778B001C8FC0 /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesViewController.h; sourceTree = "<group>"; };
+		037914641DE0778B001C8FC0 /* DetalhesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhesViewController.m; sourceTree = "<group>"; };
+		037914661DE09CEA001C8FC0 /* SiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteViewController.h; sourceTree = "<group>"; };
+		037914671DE09CEA001C8FC0 /* SiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteViewController.m; sourceTree = "<group>"; };
+		037914691DE0AF6C001C8FC0 /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		0379146A1DE0AF6C001C8FC0 /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
+		0379146C1DE0B284001C8FC0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0379146E1DE0B28D001C8FC0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		038F75E51DCDEB6100466C2D /* AlcoolGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcoolGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038F75E91DCDEB6100466C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		038F75EA1DCDEB6100466C2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379146F1DE0B28D001C8FC0 /* CoreLocation.framework in Frameworks */,
+				0379146D1DE0B284001C8FC0 /* MapKit.framework in Frameworks */,
 				038F76131DCE2C4300466C2D /* MessageUI.framework in Frameworks */,
 				038F76111DCE072B00466C2D /* Social.framework in Frameworks */,
 			);
@@ -72,6 +87,8 @@
 		038F75DC1DCDEB6100466C2D = {
 			isa = PBXGroup;
 			children = (
+				0379146E1DE0B28D001C8FC0 /* CoreLocation.framework */,
+				0379146C1DE0B284001C8FC0 /* MapKit.framework */,
 				038F76121DCE2C4300466C2D /* MessageUI.framework */,
 				038F76101DCE072B00466C2D /* Social.framework */,
 				038F75E71DCDEB6100466C2D /* AlcoolGasolina */,
@@ -102,6 +119,12 @@
 				038F75E81DCDEB6100466C2D /* Supporting Files */,
 				038F76141DCE46F000466C2D /* HistoricoViewController.h */,
 				038F76151DCE46F000466C2D /* HistoricoViewController.m */,
+				037914631DE0778B001C8FC0 /* DetalhesViewController.h */,
+				037914641DE0778B001C8FC0 /* DetalhesViewController.m */,
+				037914661DE09CEA001C8FC0 /* SiteViewController.h */,
+				037914671DE09CEA001C8FC0 /* SiteViewController.m */,
+				037914691DE0AF6C001C8FC0 /* MapaViewController.h */,
+				0379146A1DE0AF6C001C8FC0 /* MapaViewController.m */,
 			);
 			path = AlcoolGasolina;
 			sourceTree = "<group>";
@@ -233,8 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				038F75F11DCDEB6100466C2D /* ViewController.m in Sources */,
+				037914681DE09CEA001C8FC0 /* SiteViewController.m in Sources */,
 				038F75EE1DCDEB6100466C2D /* AppDelegate.m in Sources */,
 				038F75EB1DCDEB6100466C2D /* main.m in Sources */,
+				0379146B1DE0AF6C001C8FC0 /* MapaViewController.m in Sources */,
+				037914651DE0778B001C8FC0 /* DetalhesViewController.m in Sources */,
 				038F76161DCE46F000466C2D /* HistoricoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +460,7 @@
 				038F760A1DCDEB6100466C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		038F760B1DCDEB6100466C2D /* Build configuration list for PBXNativeTarget "AlcoolGasolinaTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +469,7 @@
 				038F760D1DCDEB6100466C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
